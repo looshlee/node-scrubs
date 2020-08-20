@@ -27,4 +27,6 @@ jobs:
 
     - name: run node-toad
       run: |
-        node ./app.js
+        node ./app.js &
+    - name: curl it
+      run: curl http://localhost:3000
