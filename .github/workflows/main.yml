@@ -27,4 +27,4 @@ jobs:
 
     - name: run node-toad
       run: |
-        node ./app.js &
+        node ./app.js
