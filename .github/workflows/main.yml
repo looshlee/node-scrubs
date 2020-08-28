@@ -23,6 +23,9 @@ jobs:
     - name: branch
       run: git branch -r
 
+    - name: check out
+      run: git checkout origin/cubone
+      
     - name: install packages
       run: npm ci
 
